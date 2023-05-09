@@ -1,0 +1,57 @@
+.cnt {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
+.int-cnt {
+  margin: auto;
+  display: flex;
+  width: 700px;
+  height: 500px;
+  align-self: center;
+  border: 2px solid black;
+}
+.img-int-dv {
+  width: 50%;
+  height: 100%;
+  background-color: gray;
+}
+.int-cnent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.int-cnent > p {
+  color: rgb(42, 58, 80);
+  font-size: 24px;
+  font-family: ProximaNova-Bold;
+  font-weight: 700;
+  margin-left: 20px;
+}
+.int-cnent > input {
+  width: 90%;
+  margin: 20px;
+  height: 60px;
+  padding-left: 10px;
+}
+.int-cnent > a {
+  display: flex;
+  width: 90%;
+  background-color: rgb(212, 213, 217);
+  border-radius: 5px;
+  font-size: 1rem;
+  align-self: center;
+  margin: 20px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.int-cnent > a:hover {
+  background-color: rgb(228, 115, 78);
+  color: white;
+}
